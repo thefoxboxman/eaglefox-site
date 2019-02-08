@@ -1,15 +1,18 @@
 import React, { Component } from 'react'
 import styled from 'styled-components'
-import {FaInstagram, FaTwitter, FaFacebook} from 'react-icons/fa'
+import { Link } from 'gatsby'
+import { FaInstagram, FaTwitter, FaFacebook } from 'react-icons/fa'
 
 import FooterLinks from './FooterLinks'
-import{styles} from '../../../utils'
+import { styles } from '../../../utils'
+import { FooterButton } from '../../../utils/Button'
+
 export default class Footer extends Component {
-	state={
-		icons:[
+	state = {
+		icons: [
 			{
-				id:1,
-				icon: <FaFacebook className="icon facebook-icon"/>,
+				id: 1,
+				icon: <FaFacebook className="icon facebook-icon" />,
 				path: `https://www.facebook.com`,
 			},
 			{
@@ -24,19 +27,24 @@ export default class Footer extends Component {
 			},
 		],
 	}
-	
+
 	render() {
 		return (
 			<FooterWrapper>
-<div className='title'>Eaglefox</div>
-<div className="footerLinks">
-<FooterLinks />
-</div>
-{/*}
+				{/* disable title				
+<div className='title'>title something</div>
+*/}
+				<Link to="/contact/" style={{ textDecoration: 'none' }}>
+					<FooterButton style={{ margin: '2rem auto' }}>free consultation</FooterButton>
+				</Link>
+				<div className="footerLinks">
+					<FooterLinks />
+				</div>
+				{/* disable social icons
 <div className="icons">
 					{this.state.icons.map(item => (<a href={item.path} key={item.id} target="_blank" rel="noopener noreferrer">{item.icon} </a>))}
 		</div> */}
-<p className="copyright">copyright &copy; 2019 Eaglefox Pty Ltd</p>
+				<p className="copyright">copyright &copy; 2019 Eaglefox Pty Ltd</p>
 			</FooterWrapper>
 		)
 	}
@@ -73,7 +81,7 @@ const FooterWrapper = styled.footer`
     text-align: center;
     padding: 0.3rem 1rem;
     margin: 0 auto 1rem auto;
-    font-size: 1.5rem;
+    font-size: 1rem;
     ${styles.border({ color: `${styles.colors.mainYellow}` })};
   }
   

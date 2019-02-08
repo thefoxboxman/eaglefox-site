@@ -28,7 +28,25 @@ const SectionButton = styled(BannerButton)`
     color: ${styles.colors.mainYellow};
   }
 `
+const FooterButton = styled.button`
+display: block;
+color:${styles.colors.mainWhite};
+background: transparent;
+padding: 0.5rem 1rem;
+text-transform: capitalize;
+font-size: 1rem;
+letter-spacing: 0.5rem;
+font-weight: 700px;
+${styles.border({ color: `${styles.colors.mainWhite}` })};
+margin-bottom: 1rem;
+${styles.transition({})};
+&:hover{
+	background:${styles.colors.mainWhite};
+	color:${styles.colors.mainBlack};
+	cursor: pointer;
+}
+`
 
 
 
-export {BannerButton, SectionButton}
+export {BannerButton, SectionButton, FooterButton}
