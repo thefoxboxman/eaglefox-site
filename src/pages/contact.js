@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 import { PageHeader, Banner } from '../utils/'
-import contactImg from '../images/bcg/contactBcg.jpeg'
+import contactImg from '../images/bcg/contactBcg.jpg'
 import { styles } from '../utils'
 import Layout from '../components/layout'
 import SEO from '../components/seo'

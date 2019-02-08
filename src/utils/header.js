@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
-import img from '../images/bcg/mainBcg.jpeg'
+import img from '../images/bcg/homeBcg.jpeg'
 
  function HomeHeader({img, children}) {
 	return (
@@ -26,7 +26,7 @@ const IndexHeader = styled.header`
 		justify-content: center;
 `
 const DefaultHeader = styled(IndexHeader)`
-min-height: 50vh;
+min-height: 80vh;
 `
 
 HomeHeader.defaultProps = {
