@@ -22,13 +22,14 @@ export default class NavbarIcons extends Component {
 	render() {
 		return (
 			<IconWrapper>
+				{/*}
 				{this.state.icons.map(item =>{
 					return <a 
 					href={item.path} 
 					key={item.id} 
 					target="_blank" 
 					rel="noopener noreferrer">{item.icon}</a>
-				})}
+				})} */}
 			</IconWrapper>
 		)
 	}

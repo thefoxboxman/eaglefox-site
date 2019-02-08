@@ -32,9 +32,10 @@ export default class Footer extends Component {
 <div className="footerLinks">
 <FooterLinks />
 </div>
+{/*}
 <div className="icons">
 					{this.state.icons.map(item => (<a href={item.path} key={item.id} target="_blank" rel="noopener noreferrer">{item.icon} </a>))}
-</div>
+		</div> */}
 <p className="copyright">copyright &copy; 2019 Eaglefox Pty Ltd</p>
 			</FooterWrapper>
 		)
