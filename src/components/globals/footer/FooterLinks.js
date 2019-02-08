@@ -19,8 +19,8 @@ export default class FooterLinks extends Component {
 		},
 		{
 			id: 1,
-			path: '/menu/',
-			name: 'menu'
+			path: '/servuces/',
+			name: 'services'
 		},
 		{
 			id: 2,

@@ -1,4 +1,4 @@
-import React from 'react'
+/*import React from 'react'
 import { StaticQuery, graphql } from 'gatsby'
 import styled from 'styled-components'
 
@@ -49,11 +49,12 @@ margin: 3rem 3rem;
 display: grid;
 grid-template-columns: 80%;
 grid-row-gap: 3rem;
-
-/*@media (min-width:576px){
+*/
+/*
+@media (min-width:576px){
 	grid-template-columns: 80%;
 }*/
-
+/*
 @media (min-width:760px){
 grid-template-columns: repeat(2, 1fr);
 justify-content:center;
@@ -63,4 +64,4 @@ justify-content:center;
 grid-template-columns: 1fr 1fr;
 grid-gap: 2rem;
 }
-`
+`*/
