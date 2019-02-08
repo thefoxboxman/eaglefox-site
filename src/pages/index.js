@@ -3,7 +3,8 @@ import React from 'react'
 import { Link } from 'gatsby'
 
 import {HomeHeader, Banner, BannerButton} from '../utils'
-import img from '../images/bcg/homeBcg.jpeg'
+
+import img from '../images/bcg/mainBcg.jpeg'
 import QuickInfo from '../components/HomePageComponents/QuickInfo'
 /*disable Gallery  and menu Components
 import Gallery from '../components/HomePageComponents/Gallery1'
