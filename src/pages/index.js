@@ -17,7 +17,7 @@ const IndexPage = () => (
   <Layout>
     <SEO title="Home" keywords={[`web marketing`, `web site`, `SEO`]} />
     <HomeHeader img={img}>
-      <Banner title="eaglefox" subtitle="Your profit building partner" >
+      <Banner title="eaglefox" subtitle="getting you from good... to great!" >
 				<Link to="/menu/" style={{ textDecoration: 'none' }}>
 					<BannerButton style={{ margin: '2rem auto' }}>Services</BannerButton>
 				</Link>

@@ -19,7 +19,7 @@ export default class FooterLinks extends Component {
 		},
 		{
 			id: 1,
-			path: '/servuces/',
+			path: '/services/',
 			name: 'services'
 		},
 		{
@@ -92,4 +92,4 @@ max-width:300px;
 		max-width:80%;
 	}
 
-`
+	}`
