@@ -12,6 +12,7 @@ font-size: 1.5rem;
 letter-spacing: 0.5rem;
 font-weight: 700px;
 ${styles.border({color:`${styles.colors.mainWhite}`})};
+border-radius: 10px;
 margin-bottom: 1rem;
 ${styles.transition({})};
 &:hover{
@@ -22,7 +23,8 @@ ${styles.transition({})};
 `
 const SectionButton = styled(BannerButton)`
   color: ${styles.colors.mainBlack};
-  ${styles.border({ color: `${styles.colors.mainBlack}` })};
+	${styles.border({ color: `${styles.colors.mainBlack}` })};
+	border-radius: 10px;
   &:hover {
     background: ${styles.colors.mainBlack};
     color: ${styles.colors.mainYellow};
@@ -38,6 +40,7 @@ font-size: 1rem;
 letter-spacing: 0.5rem;
 font-weight: 700px;
 ${styles.border({ color: `${styles.colors.mainWhite}` })};
+border-radius: 10px;
 margin-bottom: 1rem;
 ${styles.transition({})};
 &:hover{

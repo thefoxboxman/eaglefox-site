@@ -5,5 +5,6 @@ import {BannerButton, SectionButton, FooterButton} from './Button'
 import {Section} from './Section'
 import {Title} from './Title'
 import {CallButton} from './CallButton'
+import {FooterCallButton} from './FooterCallButton'
 
-export { styles, HomeHeader, PageHeader, Banner, BannerButton, FooterButton, Section, Title, SectionButton, CallButton }
+export { styles, HomeHeader, PageHeader, Banner, BannerButton, FooterButton, Section, Title, SectionButton, CallButton, FooterCallButton }

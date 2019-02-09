@@ -6,6 +6,7 @@ import { FaInstagram, FaTwitter, FaFacebook } from 'react-icons/fa'
 import FooterLinks from './FooterLinks'
 import { styles } from '../../../utils'
 import { FooterButton } from '../../../utils/Button'
+import { FooterCallButton } from '../../../utils'
 
 export default class Footer extends Component {
 	state = {
@@ -34,9 +35,11 @@ export default class Footer extends Component {
 				{/* disable title				
 <div className='title'>title something</div>
 */}
+				<FooterCallButton />
 				<Link to="/contact/" style={{ textDecoration: 'none' }}>
 					<FooterButton style={{ margin: '2rem auto' }}>free consultation</FooterButton>
 				</Link>
+				
 				<div className="footerLinks">
 					<FooterLinks />
 				</div>
@@ -82,8 +85,13 @@ const FooterWrapper = styled.footer`
     padding: 0.3rem 1rem;
     margin: 0 auto 1rem auto;
     font-size: 1rem;
-    ${styles.border({ color: `${styles.colors.mainYellow}` })};
+		${styles.border({ color: `${styles.colors.mainYellow}` })};
+		
   }
-  
+	
+	.callButton {
+		max-width: 5rem;
+color: ${styles.colors.mainWhite};
+	}
   
 `
