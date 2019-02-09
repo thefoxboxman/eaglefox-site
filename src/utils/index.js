@@ -1,8 +1,9 @@
 import * as styles from  './styles'
 import {HomeHeader, PageHeader} from './header'
 import Banner from './Banner'
-import {BannerButton, SectionButton} from './Button'
+import {BannerButton, SectionButton, FooterButton} from './Button'
 import {Section} from './Section'
 import {Title} from './Title'
+import {CallButton} from './CallButton'
 
-export { styles, HomeHeader, PageHeader, Banner, BannerButton, Section, Title, SectionButton }
+export { styles, HomeHeader, PageHeader, Banner, BannerButton, FooterButton, Section, Title, SectionButton, CallButton }

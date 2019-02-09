@@ -42,9 +42,9 @@ export default class NavbarLinks extends Component {
 						<Link to = {item.path} className ="nav-link" > {
 							item.name
 						} </Link> 
-						</li>
+					</li>
 					)
-				})
+					})
 			} </LinkWrapper>
 		)
 	}

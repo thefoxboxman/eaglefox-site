@@ -41,12 +41,12 @@ ${styles.border({ color: `${styles.colors.mainWhite}` })};
 margin-bottom: 1rem;
 ${styles.transition({})};
 &:hover{
-	background:${styles.colors.mainWhite};
-	color:${styles.colors.mainBlack};
+	background:${styles.colors.mainBlack};
+	color:${styles.colors.mainYellow};
+	${styles.border({ color: `${styles.colors.mainYellow}` })};
 	cursor: pointer;
 }
 `
-
 
 
 export {BannerButton, SectionButton, FooterButton}

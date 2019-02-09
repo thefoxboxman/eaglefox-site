@@ -4,6 +4,7 @@ import NavbarLinks from './NavbarLinks'
 import NavbarIcons from './NavbarIcons'
 import styled from 'styled-components'
 
+
 export default class navbar extends Component {
 	//set initial state navbar to false ie closed
 	state={
@@ -20,6 +21,7 @@ export default class navbar extends Component {
 			<NavWrapper>
 				<NavbarHeader handleNavbar={this.handleNavbar}/>
 				<NavbarLinks navbarOpen={this.state.navbarOpen}/>
+				
 				<NavbarIcons/>
 			</NavWrapper>
 		)
@@ -28,8 +30,9 @@ export default class navbar extends Component {
 
 //style the navbar with media query
 const NavWrapper = styled.nav`
-@media (min-width: 768px){
+@media (min-width: 780px){
 	display: flex;
 	align-items: center;
+	max-width: 90vw;
 }
 `

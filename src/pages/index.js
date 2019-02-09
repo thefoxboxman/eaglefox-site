@@ -14,14 +14,17 @@ import Layout from '../components/layout'
 import SEO from '../components/seo'
 
 
+
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" keywords={[`web marketing`, `web site`, `SEO`]} />
     <HomeHeader img={homeImg}>
+		
       <Banner title="Web Marketing" subtitle="helping you go from good... to great!" >
 				<Link to="/menu/" style={{ textDecoration: 'none' }}>
 					<BannerButton style={{ margin: '2rem auto' }}>Services</BannerButton>
 				</Link>
+				
 			</Banner>
     </HomeHeader>
 		<QuickInfo />

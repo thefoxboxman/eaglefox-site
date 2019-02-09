@@ -30,6 +30,9 @@ export default class NavbarIcons extends Component {
 					target="_blank" 
 					rel="noopener noreferrer">{item.icon}</a>
 				})} */}
+				
+					
+					
 			</IconWrapper>
 		)
 	}
