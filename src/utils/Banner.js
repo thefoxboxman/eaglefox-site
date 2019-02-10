@@ -31,6 +31,10 @@ const BannerWrapper = styled.div`
 			font-size: 2.5rem;
 			letter-spacing: 0.45rem;
 		}
+		.subtitle {
+			font-size: 1.3rem;
+letter-spacing: 0.2rem;
+		}
 	}
 `
 Banner.defaultProps = {
