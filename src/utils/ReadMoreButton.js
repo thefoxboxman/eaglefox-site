@@ -8,7 +8,7 @@ import { styles } from '../utils'
 export function ReadMoreButton() {
 	return (
 		<CallButtonWrapper >
-			<h4>Read More...</h4>
+			Read More...
 		</CallButtonWrapper>
 	)
 }
@@ -17,28 +17,28 @@ const CallButtonWrapper = styled.div`
 	
 
 max-width: 10rem;
-background: transparent;
+
 padding: 0.6rem 3rem;
 text-transform: capitalize;
-font-size: 0.8rem;
+font-size: 1rem;
 text-align: center;
-font-weight: 900px;
+letter-spacing: 0.1rem;
+color:${styles.colors.mainWhite};
 background:${styles.colors.mainYellow};
-${styles.border({ color: `${styles.colors.mainYellow}` })};
+${styles.border({ color: `${styles.colors.mainBlack}` })};
 border-radius: 5px;
 cursor: pointer;
 
 ${styles.transition({})};
 &:hover{
-	background:${styles.colors.mainWhite};
-	color:${styles.colors.mainBlack};
+	background:${styles.colors.lightGrey};
+	color:${styles.colors.mainYellow};
 	${styles.border({ color: `${styles.colors.mainBlack}` })};
 	
 }
 a{
 	text-decoration: none;
-	font-size: 1rem;
-	color:${styles.colors.mainBlack};
+	
 }
 `
 

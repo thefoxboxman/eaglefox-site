@@ -2,12 +2,13 @@ import React from 'react'
 import styled from 'styled-components'
 import { Link } from 'gatsby'
 
-import { Section, styles } from '../../../utils'
+import { Section, styles, Title } from '../../../utils'
 import { ReadMoreButton} from '../../../utils/ReadMoreButton'
 
 export function ServicesList() {
   return (
     <ServicesSection>
+			<Title message="make your choice" title="services menu"></Title>
       <Section>
         <ServicesListWrapper>
           <div className="item">
@@ -79,7 +80,7 @@ export function ServicesList() {
             </p>
 						<div className='linkButton'>
 							<Link to="/about/" style={{ textDecoration: 'none' }}>
-								<ReadMoreButton style={{ margin: '2rem auto' }}>about</ReadMoreButton>
+								<ReadMoreButton /> 
 							</Link>
 						</div>
           </div>
