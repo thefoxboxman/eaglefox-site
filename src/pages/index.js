@@ -22,7 +22,7 @@ const IndexPage = () => (
 		
 		<HomeHeader img={homeImg}>
 			
-			<Banner title="Web Marketing" subtitle="helping you go from OK... to great!" >
+			<Banner title="Everything Web" subtitle="helping you go from OK... to great!" >
 				<Link to="/menu/" style={{ textDecoration: 'none' }}>
 					<BannerButton style={{ margin: '2rem auto' }}>Services</BannerButton>
 				</Link>
