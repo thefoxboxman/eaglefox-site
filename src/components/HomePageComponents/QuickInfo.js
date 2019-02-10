@@ -13,7 +13,8 @@ export default class QuickInfo extends Component {
         <Title message="let us tell you" title="our mission" />
         <QuickInfoWrapper>
 					<p className="text">
-					Ut magna tempor culpa aliqua adipisicing eu nisi non veniam consequat culpa id dolore. Sunt consequat voluptate duis veniam id fugiat. Reprehenderit ipsum sint amet incididunt aliqua ut incididunt qui eu velit ullamco labore officia in. Consequat pariatur id fugiat anim dolore aliqua amet laborum proident nisi amet id ut. Commodo quis eu labore irure veniam ea consectetur id sint excepteur commodo ea non. Laborum elit et nostrud id adipisicing. Magna incididunt pariatur laborum cillum dolor.
+				To serve our customers to the best by delivering technically sound and affordable business solutions while ensuring exceptional customer support throughout the process.
+				To become a prime performer in the global marketplace by providing highly innovative web designing, web development and internet marketing services that will drive our clients' business towards growth. Worldwide reputation is the dream of every company and we want to achieve it through our work.
 					</p>
 					<Link to="/about/" style={{textDecoration:'none'}}>
 					<SectionButton style={{margin:'2rem auto'}}>about</SectionButton>
@@ -28,8 +29,9 @@ const QuickInfoWrapper = styled.div`
   width: 90vw;
   margin: 2rem auto;
   line-height: 1.75rem;
+	letter-spacing: 0.1rem;
   color: ${styles.colors.mainGrey};
-  word-spacing: 0.2rem;
+  word-spacing: 0.1rem;
   @media (min-width: 768px) {
     width: 70vw;
   }
