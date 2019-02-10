@@ -47,7 +47,7 @@ export default class Footer extends Component {
 <div className="icons">
 					{this.state.icons.map(item => (<a href={item.path} key={item.id} target="_blank" rel="noopener noreferrer">{item.icon} </a>))}
 		</div> */}
-				<p className="copyright">copyright &copy; 2019 Eaglefox Pty Ltd</p>
+				<p className="copyright">copyright &copy; 1999-2019   Eaglefox Pty Ltd ABN: 51086009028</p>
 			</FooterWrapper>
 		)
 	}

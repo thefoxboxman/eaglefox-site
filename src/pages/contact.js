@@ -16,7 +16,7 @@ const ContactPage = () => (
       <div className="name">
         <h2>John De Costa</h2>
       </div>
-      <div className="title">Web Developer for the Real World</div>
+      <div className="title">Web Wrangler</div>
       <div className="phone">
         <h3> +61 0418 753 527</h3>
       </div>
