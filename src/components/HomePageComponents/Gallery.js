@@ -4,6 +4,7 @@ import {StaticQuery, graphql} from 'gatsby'
 import Img from 'gatsby-image'
 
 import {styles, Section} from '../../utils'
+
 const SINGLE_IMAGE = graphql`
   {
     img1: file(relativePath: { eq: "homeGallery/img-1.jpeg" }) {

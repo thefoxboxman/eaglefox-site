@@ -8,8 +8,8 @@ color:${styles.colors.mainWhite};
 background: transparent;
 padding: 0.5rem 1rem;
 text-transform: uppercase;
-font-size: 1.5rem;
-letter-spacing: 0.5rem;
+font-size: 1rem;
+letter-spacing: 0.2rem;
 font-weight: 700px;
 ${styles.border({color:`${styles.colors.mainWhite}`})};
 border-radius: 10px;
@@ -20,6 +20,12 @@ ${styles.transition({})};
 	color:${styles.colors.mainBlack};
 	cursor: pointer;
 }
+
+@media (min-width: 450px){
+		.title {
+			font-size: 1.5rem;
+			letter-spacing: 0.5rem;
+		}
 `
 const SectionButton = styled(BannerButton)`
   color: ${styles.colors.mainBlack};
@@ -37,7 +43,7 @@ background: transparent;
 padding: 0.5rem 1rem;
 text-transform: capitalize;
 font-size: 1rem;
-letter-spacing: 0.5rem;
+letter-spacing: 0.2rem;
 font-weight: 700px;
 ${styles.border({ color: `${styles.colors.mainWhite}` })};
 border-radius: 10px;

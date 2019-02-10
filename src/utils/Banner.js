@@ -15,18 +15,25 @@ const BannerWrapper = styled.div`
   text-align: center;
   .title {
     color: ${styles.colors.mainWhite};
-    font-size: 3rem;
+    font-size: 1.5rem;
     text-transform: uppercase;
-    letter-spacing: 0.45rem;
+    letter-spacing: 0.25rem;
   }
   .subtitle {
     color: ${styles.colors.mainWhite};
 		${styles.textSlanted};
-    font-size: 1.5rem;
+    font-size: 1.0rem;
     text-transform: capitalize;
     letter-spacing: 0.15rem;
   }
+	@media (min-width: 450px){
+		.title {
+			font-size: 2.5rem;
+			letter-spacing: 0.45rem;
+		}
+	}
 `
 Banner.defaultProps = {
 	title: 'default title',
+	subtitle: 'default subtitle',
 }

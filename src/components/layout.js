@@ -27,7 +27,7 @@ const MyGlobalStyle = createGlobalStyle`
 }
 
 body {
-	font-family: Georgia, 'Times New Roman', Times, serif ;
+	font-family: Arial, Helvetica, sans-serif;
 	color: black;
 	background: white;
 }
