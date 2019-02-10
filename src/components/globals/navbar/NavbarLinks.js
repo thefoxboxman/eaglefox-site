@@ -58,27 +58,30 @@ const LinkWrapper = styled.ul`
     display: block;
     text-decoration: none;
     padding: 0.5rem 1rem 0.5rem 1rem;
-    color: ${styles.colors.mainGrey};
+		margin:0 0.1rem;
+    color: ${styles.colors.mainBlack};
     font-weight: 700;
     text-transform: capitalize;
+		border-radius:5px;
     cursor: pointer;
     ${styles.transDefault};
     &:hover {
-      background: ${styles.colors.mainGrey};
+      
       color: ${styles.colors.mainYellow};
       padding: 0.5rem 1rem 0.5rem 1.3rem;
     }
   }
   height: ${props => (props.open ? '200px' : '0px')};
   overflow: hidden;
-  ${styles.transObject({ time: '1s' })};
+  ${styles.transObject({ time: '0.5s' })};
   @media (min-width: 768px) {
     height: auto;
     display: flex;
     margin: 0 auto;
     .nav-link:hover {
-      background: ${styles.colors.mainWhite};
+      background: ${styles.colors.mainGrey};
       padding: 0.5rem 1rem 0.5rem 1rem;
+			margin-top: 5px;
     }
   }
 `
