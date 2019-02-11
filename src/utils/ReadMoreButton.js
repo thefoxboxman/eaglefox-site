@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
-import { FaPhone } from 'react-icons/fa'
+
 
 import { styles } from '../utils'
 
