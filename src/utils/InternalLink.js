@@ -3,13 +3,13 @@ import { Link } from 'gatsby'
 import styled from 'styled-components'
 import {SectionButton} from '../utils'
 
-export function InternalLink() {
+export function InternalLink({linkTo, linkText}) {
   return (
     <InternalLinkWrapper>
 			
-      <Link to="/about/" style={{ textDecoration: 'none' }}>
+      <Link to={linkTo} style={{ textDecoration: 'none' }}>
 					<SectionButton style={{ margin: '0.5rem auto' }}>
-						Back to About
+						{linkText}
             </SectionButton>
       </Link>
 			
@@ -17,5 +17,9 @@ export function InternalLink() {
   )
 }
 
+InternalLink.defaultProps = {
+	linkTo: '/about/',
+	linkText: 'Go Home',
+}
 const InternalLinkWrapper = styled.div`
 `
