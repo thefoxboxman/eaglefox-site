@@ -8,7 +8,7 @@ color:${styles.colors.mainWhite};
 background: transparent;
 padding: 0.5rem 1rem;
 text-transform: uppercase;
-font-size: 1rem;
+font-size: .8rem;
 letter-spacing: 0.2rem;
 font-weight: 700px;
 ${styles.border({color:`${styles.colors.mainWhite}`})};
@@ -29,6 +29,7 @@ ${styles.transition({})};
 }
 `
 const SectionButton = styled(BannerButton)`
+background: ${styles.colors.mainYellow};
   color: ${styles.colors.mainBlack};
 	${styles.border({ color: `${styles.colors.mainBlack}` })};
 	border-radius: 10px;
