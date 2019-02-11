@@ -13,7 +13,7 @@ export default class AboutText extends Component {
 			<Title message="let me tell you about" title="my skills" />
 			<AboutTextWrapper>
 				<p>
-					Hi. My name is John De Costa. I'm the Web Wrangler. Do I know everything about the web? No not even a fraction. Can I find the answers to you questions and needs. Yes. I. Can. My skills base include  the following technologies.
+					Hi. My name is John De Costa. I'm the Head Web Wrangler. Do I know everything about the web? No, not even a fraction. Can I find the answers to you questions and needs. Yes. I. Can. My skills base include  the following technologies. As a bonus if I can't I will find someone who can. We are learning all the time.
           </p>
 				<p>
 					<span className="subheader">
@@ -81,7 +81,7 @@ The JAMstack is not about specific technologies. It’s a new way of building we
 					<span className="subheader"> </span>
 				</p>
 				<Link to="/contact" style={{ textDecoration: 'none' }}>
-					<SectionButton style={{ margin: '2rem auto' }}>
+					<SectionButton style={{ margin: '0.5rem auto' }}>
 						Contact Me
             </SectionButton>
 				</Link>
@@ -93,7 +93,7 @@ The JAMstack is not about specific technologies. It’s a new way of building we
 }
 const AboutTextWrapper = styled.div`
   width: 90vw;
-  margin: 2rem auto;
+  margin: 1rem auto;
   line-height: 1.5rem;
 	color: ${styles.colors.mainGrey};
 	font-size: 1.05rem;
@@ -109,6 +109,6 @@ const AboutTextWrapper = styled.div`
 		font-weight:600;
 	}
 	p{
-		padding-top:2rem;
+		padding-top:1rem;
 	}
 `
