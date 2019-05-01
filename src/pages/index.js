@@ -12,6 +12,7 @@ import Menu from '../components/HomePageComponents/Menu'
 */
 import Layout from '../components/layout'
 import SEO from '../components/seo'
+import Blurb from "../components/HomePageComponents/Blurb.js"
 
 
 
@@ -22,14 +23,14 @@ const IndexPage = () => (
 		
 		<HomeHeader img={homeImg}>
 			
-			<Banner title="Everything Web" subtitle="Helping your business go from OK... to GREAT!" >
-				<Link to="/menu/" style={{ textDecoration: 'none' }}>
+			<Banner title="Everything Web" subtitle="Helping Your business go from ok... to GREAT!" >
+				<Link to="/services/" style={{ textDecoration: 'none' }}>
 					<BannerButton style={{ margin: '2rem auto' }}>Services</BannerButton>
 				</Link>
 			</Banner>
 			
 		</HomeHeader>
-		
+		<Blurb />
 		<QuickInfo />
 		
 
