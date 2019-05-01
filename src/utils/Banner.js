@@ -21,9 +21,9 @@ const BannerWrapper = styled.div`
   }
   .subtitle {
     color: ${styles.colors.mainWhite};
-		${styles.textSlanted};
+		font-weight: 300;
     font-size: 1.0rem;
-    text-transform: capitalize;
+    
     letter-spacing: 0.15rem;
   }
 	@media (min-width: 450px){

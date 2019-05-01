@@ -13,7 +13,7 @@ export default class QuickInfo extends Component {
         <Title message="let us tell you" title="our mission" />
         <QuickInfoWrapper>
 					<p className="text">
-				To serve our customers to the best by delivering technically sound and affordable business solutions while ensuring exceptional customer support throughout the process.
+				To serve our customers by delivering technically sound and affordable business solutions while ensuring exceptional customer service and support throughout the process.
 				To become a prime performer in the global marketplace by providing highly innovative web designing, web development and internet marketing services that will drive our clients' business towards growth. Worldwide reputation is the dream of every company and we want to achieve it through our work.
 					</p>
 					<Link to="/about/" style={{textDecoration:'none'}}>

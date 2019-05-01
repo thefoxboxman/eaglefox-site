@@ -13,7 +13,7 @@ export default class AboutText extends Component {
 			<Title message="let me tell you about" title="my skills" />
 			<AboutTextWrapper>
 				<p>
-					Hi. My name is John De Costa. I'm the Head Web Wrangler. Do I know everything about the web? No, not even a fraction. Can I find the answers to you questions and needs. Yes. I. Can. My skills base include  the following technologies. As a bonus if I can't I will find someone who can. We are learning all the time.
+					Hi. My name is John De Costa. I'm the Head Web Wrangler at Eaglefox. Do I know everything about the web? No, not even a fraction. Can I find the answers to you questions and needs. Yes. I. Can. My skills base include  the following technologies. As a bonus if I can't I will find someone who can. We are learning all the time.
           </p>
 				<p>
 					<span className="subheader">

@@ -2,8 +2,8 @@ import React from 'react'
 import styled from 'styled-components'
 import { Link } from 'gatsby'
 
-import { Section, styles, Title } from '../../../utils'
-import { ReadMoreButton} from '../../../utils/ReadMoreButton'
+import { Section, styles, Title } from '../../utils'
+import { ReadMoreButton} from '../../utils/ReadMoreButton'
 
 export function ServicesList() {
   return (

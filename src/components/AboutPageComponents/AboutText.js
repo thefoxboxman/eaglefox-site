@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import styled from 'styled-components'
-import { Link } from 'gatsby'
+
 
 import { styles } from '../../utils'
 import { Section, Title, InternalLink } from '../../utils'

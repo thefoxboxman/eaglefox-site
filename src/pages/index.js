@@ -2,7 +2,7 @@ import React from 'react'
 
 import { Link } from 'gatsby'
 
-import { HomeHeader, Banner, BannerButton, Section } from '../utils'
+import { HomeHeader, Banner, BannerButton } from '../utils'
 
 import homeImg from '../images/bcg/homeBcg.jpg'
 import QuickInfo from '../components/HomePageComponents/QuickInfo'
@@ -12,7 +12,7 @@ import Menu from '../components/HomePageComponents/Menu'
 */
 import Layout from '../components/layout'
 import SEO from '../components/seo'
-import { ServicesList } from '../components/HomePageComponents/Services/ServicesList'
+
 
 
 
@@ -22,7 +22,7 @@ const IndexPage = () => (
 		
 		<HomeHeader img={homeImg}>
 			
-			<Banner title="Everything Web" subtitle="helping you go from OK... to great!" >
+			<Banner title="Everything Web" subtitle="Helping your business go from OK... to GREAT!" >
 				<Link to="/menu/" style={{ textDecoration: 'none' }}>
 					<BannerButton style={{ margin: '2rem auto' }}>Services</BannerButton>
 				</Link>
@@ -31,7 +31,7 @@ const IndexPage = () => (
 		</HomeHeader>
 		
 		<QuickInfo />
-		<ServicesList />
+		
 
 	</Layout>
 )
