@@ -1,22 +1,19 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import {
-	createGlobalStyle
-} from 'styled-components'
+import { createGlobalStyle } from 'styled-components'
 
 import Navbar from './globals/navbar/Navbar'
 import Footer from './globals/footer/Footer'
 
-const Layout = ({
-	children
-}) => {
-	return ( <React.Fragment >
-		<MyGlobalStyle />
-		<Navbar /> 
-		{children} 
-		<Footer/>
-		</React.Fragment>
-	)
+const Layout = ({ children }) => {
+  return (
+    <React.Fragment>
+      <MyGlobalStyle />
+      <Navbar />
+      {children}
+      <Footer />
+    </React.Fragment>
+  )
 }
 
 const MyGlobalStyle = createGlobalStyle`
@@ -34,7 +31,7 @@ body {
 `
 
 Layout.propTypes = {
-	children: PropTypes.node.isRequired,
+  children: PropTypes.node.isRequired,
 }
 
 export default Layout
