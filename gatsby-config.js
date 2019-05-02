@@ -7,7 +7,8 @@ module.exports = {
   siteMetadata: {
     title: `Eaglefox`,
     description: `Web marketing consultants`,
-    author: `john de costa`,
+		author: `john de costa`,
+		siteURL: `https://www.eaglefox.com.au`
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -61,28 +62,7 @@ module.exports = {
 				}
 			}
 		},
-		/* removed contentful access tokens related to gatsby-cafe project
-    {
-      resolve: `gatsby-source-contentful`,
-      options: {
-				spaceId: process.env.SPACE_ID,
-         Learn about environment variables: https://gatsby.app/env-vars
-				accessToken: process.env.ACCESS_TOKEN,
-      },
-    },*/
-		/* disable gatsby-plugin-manifest
-		{
-      resolve: `gatsby-plugin-manifest`,
-      options: {
-        name: `gatsby-starter-default`,
-        short_name: `starter`,
-        start_url: `/`,
-        background_color: `#663399`,
-        theme_color: `#663399`,
-        display: `minimal-ui`,
-        //icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
-      },
-    },*/
+	
     {
       resolve: `gatsby-plugin-styled-components`,
       options: {

@@ -40,7 +40,7 @@ export default class Blurb extends Component {
             JAMstack techologies we can deliver websites so fast and at so
             low capital investment that you can indulge and test your every
             business idea.
-						Static site generators like "Gatsby" or "Hugo" build web pages that will load in under three seconds. Host your website on services like "Netlify.com" and you will have access to a fast content delivery network (CDN) that is secure and costs just a few dollars per month. Set up online payment with services like "Stripe.com" in just minutes. Add a Content Management Service (CMS) like "Sanity.io" so you handle your website content 24/7.
+						Static site generators like "Gatsby" or "Hugo" build web pages that will load in under three seconds. Host your website on services like "Netlify.com" and you will have access to a fast content delivery network (CDN) that is secure and costs just a few dollars per month. Set up online payment with services like "Stripe.com" in just minutes. Add a Content Management Service (CMS) like "Sanity.io" so you edit your website content 24/7.
           </p>
           <Link to="/services/" style={{ textDecoration: 'none' }}>
             <SectionButton style={{ margin: '2rem auto' }}>
