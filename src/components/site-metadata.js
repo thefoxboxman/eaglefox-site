@@ -15,7 +15,7 @@ const SiteMetadata = ({ pathname }) => {
         siteMetadata {
           siteUrl
           title
-          twitter
+          
         }
       }
     }
@@ -39,8 +39,7 @@ const SiteMetadata = ({ pathname }) => {
       <meta property="og:image:width" content="512" />
       <meta property="og:image:height" content="512" />
 
-      <meta name="twitter:card" content="summary" />
-      <meta name="twitter:site" content={twitter} />
+      
     </Helmet>
   )
 }
