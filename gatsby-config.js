@@ -1,14 +1,11 @@
-//disable dotenv 
-//require("dotenv").config({
-//	path: `.env.${process.env.NODE_ENV}`,
-//})
+
 
 module.exports = {
   siteMetadata: {
     title: `Web Developer Eaglefox`,
     description: `Web marketing consultants using JAMstack technology to build blazingly fast websites`,
     author: `John De Costa`,
-    
+    siteUrl: `https://www.eaglefox.com.au`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -33,10 +30,8 @@ module.exports = {
       resolve: `gatsby-plugin-favicon`,
       options: {
         logo: './src/favicon.png',
-			}
-        
       },
-   
+    },
 
     {
       resolve: `gatsby-plugin-styled-components`,
