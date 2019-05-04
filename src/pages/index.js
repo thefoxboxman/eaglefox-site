@@ -6,10 +6,7 @@ import { HomeHeader, Banner, BannerButton } from '../utils'
 
 import homeImg from '../images/bcg/homeBcg.jpg'
 import QuickInfo from '../components/HomePageComponents/QuickInfo'
-/*disable Gallery  and menu Components
-import Gallery from '../components/HomePageComponents/Gallery1'
-import Menu from '../components/HomePageComponents/Menu'
-*/
+
 import Layout from '../components/layout'
 import SEO from '../components/seo'
 import Blurb from "../components/HomePageComponents/Blurb.js"
@@ -19,6 +16,7 @@ import Blurb from "../components/HomePageComponents/Blurb.js"
 
 const IndexPage = () => (
 	<Layout>
+	
 		<SEO title="Home" keywords={[`web marketing`, `web site`, `SEO`]} />
 		
 		<HomeHeader img={homeImg}>

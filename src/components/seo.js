@@ -55,7 +55,7 @@ function SEO({ description, lang, meta, keywords, title }) {
                 keywords.length > 0
                   ? {
                       name: `keywords`,
-                      content: keywords.join(`, `),
+                      content: keywords.join(`JAMstack, website, wesbsite building, seo, online marketing, sydney, australia`),
                     }
                   : []
               )
@@ -70,7 +70,7 @@ function SEO({ description, lang, meta, keywords, title }) {
 SEO.defaultProps = {
   lang: `en`,
   meta: [],
-  keywords: [JAMstack, website, design ],
+  keywords: [],
 }
 
 SEO.propTypes = {
