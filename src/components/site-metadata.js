@@ -7,7 +7,7 @@ import theFoxIcon from '../images/theFoxIcon.png'
 const SiteMetadata = ({ pathname }) => {
   const {
     site: {
-      siteMetadata: { siteUrl, title, twitter },
+      siteMetadata: { siteUrl, title },
     },
   } = useStaticQuery(graphql`
     query SiteMetadata {
