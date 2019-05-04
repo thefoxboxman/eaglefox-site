@@ -8,7 +8,7 @@ module.exports = {
     title: `Web Developer Eaglefox`,
     description: `Web marketing consultants using JAMstack technology to build blazingly fast websites`,
     author: `John De Costa`,
-    siteURL: ``,
+    
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
