@@ -3,9 +3,10 @@
 module.exports = {
   siteMetadata: {
     title: `Web Developer Eaglefox`,
-    description: `Web marketing consultants using JAMstack technology to build blazingly fast websites`,
+    description: `Web marketing consultants using JAMstack technology to build blazingly fast, secure, and affordable websites in Ryde, Sydney`,
     author: `John De Costa`,
-    siteUrl: `https://www.eaglefox.com.au`,
+		siteUrl: `https://www.eaglefox.com.au`,
+		
   },
   plugins: [
     `gatsby-plugin-react-helmet`,

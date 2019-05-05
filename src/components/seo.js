@@ -1,6 +1,6 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import {Helmet} from 'react-helmet'
+import { Helmet } from 'react-helmet'
 import { StaticQuery, graphql } from 'gatsby'
 
 function SEO({ description, lang, meta, keywords, title }) {
@@ -21,6 +21,10 @@ function SEO({ description, lang, meta, keywords, title }) {
               {
                 name: `description`,
                 content: metaDescription,
+              },
+              {
+                name: `google-site-verification`,
+                content: `IaFkcy4lleYbIU55rCc7Px2lRS5Lvs67MiOMSVZBttQ`,
               },
               {
                 property: `og:title`,
@@ -55,7 +59,9 @@ function SEO({ description, lang, meta, keywords, title }) {
                 keywords.length > 0
                   ? {
                       name: `keywords`,
-                      content: keywords.join(`JAMstack, website, wesbsite building, seo, online marketing, sydney, australia`),
+                      content: keywords.join(
+                        ` inside seo,JAMstack, website, wesbsite building, seo, online marketing, sydney, australia`
+                      ),
                     }
                   : []
               )
