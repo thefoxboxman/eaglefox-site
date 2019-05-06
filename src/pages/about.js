@@ -15,7 +15,7 @@ const AboutPage = () => (
       <Banner title='about us' subtitle='the inside story' />
     </PageHeader>
 		<AboutText />
-		<InternalLink linkTo='/aboutskills/' linkText='Review My Skills' />
+		<InternalLink linkTo='/skills/' linkText='Review My Skills' />
   </Layout>
 )
 

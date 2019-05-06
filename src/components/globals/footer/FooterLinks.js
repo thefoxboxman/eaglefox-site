@@ -5,48 +5,56 @@ import { Link } from 'gatsby'
 import { styles } from '../../../utils'
 
 export default class FooterLinks extends Component {
-  state = {
-    links: [
-      {
-        id: 0,
-        path: '/',
-        name: 'home',
-      },
-      {
-        id: 1,
-        path: '/services/',
-        name: 'services',
-      },
-      {
-        id: 2,
-        path: '/about/',
-        name: 'about',
-      },
-      {
-        id: 3,
-        path: '/contact/',
-        name: 'contact',
-      },
-    ],
-  }
-  render() {
-    return (
-      <LinkWrapper>
-        {' '}
-        {this.state.links.map(item => {
-          return (
-            <li key={item.id}>
-              <Link to={item.path} className="nav-link">
-                {' '}
-                {item.name}{' '}
-              </Link>
-            </li>
-          )
-        })}{' '}
-      </LinkWrapper>
-    )
-  }
-}
+                 state = {
+                   links: [
+                     {
+                       id: 0,
+                       path: '/',
+                       name: 'home',
+                     },
+                     {
+                       id: 1,
+                       path: '/services/',
+                       name: 'services',
+                     },
+                     {
+                       id: 2,
+                       path: '/skills/',
+                       name: 'skills',
+                     },
+                     {
+                       id: 3,
+                       path: '/about/',
+                       name: 'about',
+                     },
+                     {
+                       id: 4,
+                       path: '/contact/',
+                       name: 'contact',
+                     },
+                   ],
+                 }
+                 render() {
+                   return (
+                     <LinkWrapper>
+                       {' '}
+                       {this.state.links.map(item => {
+                         return (
+                           <li key={item.id}>
+                             <Link
+                               to={item.path}
+                               className="nav-link"
+                             >
+                               {' '}
+                               {item.name}{' '}
+                             </Link>
+                           </li>
+                         )
+                       })}{' '}
+                     </LinkWrapper>
+                   )
+                 }
+               }
 
 const LinkWrapper = styled.ul`
   max-width: 300px;
