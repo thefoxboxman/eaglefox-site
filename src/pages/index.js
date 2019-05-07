@@ -17,7 +17,7 @@ import Blurb from "../components/HomePageComponents/Blurb.js"
 const IndexPage = () => (
 	<Layout>
 	
-		<SEO title="Home" keywords={[`web marketing`, `web site`, `SEO`]} />
+		<SEO title="Home"  />
 		
 		<HomeHeader img={homeImg}>
 			

@@ -10,7 +10,7 @@ import SEO from '../components/seo'
 
 const AboutPage = () => (
   <Layout>
-    <SEO title="About" keywords={[`gatsby`, `application`, `react`]} />
+    <SEO title="About"  />
     <PageHeader img={aboutImg}>
       <Banner title='about us' subtitle='the inside story' />
     </PageHeader>

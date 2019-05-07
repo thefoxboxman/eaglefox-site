@@ -10,7 +10,7 @@ import SEO from '../components/seo'
 import {InternalLink} from '../utils'
 const AboutSkillsPage = () => (
 	<Layout>
-		<SEO title="AboutSkills" keywords={[`gatsby`, `application`, `react`]} />
+		<SEO title="Skills"  />
 		<PageHeader img={aboutSkillsImg}>
 			<Banner title='my skills' subtitle='the good oil' />
 		</PageHeader>

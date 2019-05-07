@@ -8,7 +8,7 @@ import SEO from '../components/seo'
 
 const ContactPage = () => (
   <Layout>
-    <SEO title="Contact" keywords={[`gatsby`, `application`, `react`]} />
+    <SEO title="Contact"  />
     <PageHeader img={contactImg}>
       <Banner title="contact us" subtitle="we are here for you" />
     </PageHeader>

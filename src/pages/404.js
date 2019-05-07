@@ -8,7 +8,7 @@ import notFoundImg from '../images/bcg/404Bcg.jpg'
 
 const NotFoundPage = () => (
   <Layout>
-    <SEO title="404: Not found" />
+    <SEO title="Page Not Found" />
 		<PageHeader img={notFoundImg} min-height= "100vh">
 			<Banner title='404 Not Found' subtitle='You just hit a route that does not exist... the sadness.' />
 		</PageHeader>
