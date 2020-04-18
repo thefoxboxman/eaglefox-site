@@ -128,6 +128,7 @@ const ServicesListWrapper = styled.div`
     background-color: white;
     border: 2px solid #000;
     border-radius: 5px;
+    box-shadow: 5px 10px 8px #888888;
   }
 
   @media (min-width: 576px) {

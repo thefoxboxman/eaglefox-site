@@ -24,11 +24,16 @@ export default class NavbarLinks extends Component {
       },
       {
         id: 3,
+        path: '/portfolio/',
+        name: 'our work',
+      },
+      {
+        id: 4,
         path: '/about/',
         name: 'about',
       },
       {
-        id: 4,
+        id: 5,
         path: '/contact/',
         name: 'contact',
       },
@@ -38,7 +43,7 @@ export default class NavbarLinks extends Component {
     return (
       <LinkWrapper open={this.props.navbarOpen}>
         {' '}
-        {this.state.links.map(item => {
+        {this.state.links.map((item) => {
           return (
             <li key={item.id}>
               <Link to={item.path} className="nav-link">
@@ -73,7 +78,7 @@ const LinkWrapper = styled.ul`
       padding: 0.5rem 1rem 0.5rem 1.3rem;
     }
   }
-  height: ${props => (props.open ? '150px' : '0px')};
+  height: ${(props) => (props.open ? '150px' : '0px')};
   overflow: hidden;
   ${styles.transObject({ time: '0.5s' })};
   @media (min-width: 768px) {
