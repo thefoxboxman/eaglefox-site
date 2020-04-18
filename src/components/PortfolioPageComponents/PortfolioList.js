@@ -92,11 +92,7 @@ export function PortfolioList() {
           </div>
 
           <div className="item">
-            <a
-              href="https://www.mayerfleur.com/"
-              target="_blank"
-              rel="noreferrer"
-            >
+            <a href="https://mayerfleur.com/" target="_blank" rel="noreferrer">
               <img
                 src={sarinaHandyman}
                 alt="Image of Sarina Handyman Web Page"
@@ -105,7 +101,7 @@ export function PortfolioList() {
             </a>
             <h2>
               <a
-                href="https://www.mayerfleur.com//"
+                href="https://mayerfleur.com/"
                 target="_blank"
                 rel="noreferrer"
               >
