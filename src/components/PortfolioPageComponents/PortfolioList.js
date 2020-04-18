@@ -6,7 +6,7 @@ import { Section, styles, Title } from '../../utils'
 import { ReadMoreButton } from '../../utils/ReadMoreButton'
 import aquilacove from '../../images/Portfolio/aquilacoveWebPage.jpg'
 import aCoveBuiltWith from '../../images/Portfolio/AquilacoveBuiltWith.jpg'
-import photoADay from '../../images/Portfolio/photoADay.jpg'
+import photoADay from '../../images/Portfolio/PhotoADay.jpg'
 import JAPaDayBuiltWith from '../../images/Portfolio/JenellePADBuiltWith.jpg'
 import sarinaHandyman from '../../images/Portfolio/SarinaHandyman.jpg'
 import HandymanBuiltWith from '../../images/Portfolio/HandymanBuiltWith.jpg'
@@ -105,7 +105,7 @@ export function PortfolioList() {
                 target="_blank"
                 rel="noreferrer"
               >
-                Sarina Handyman Service
+                Sarina Handyman
               </a>
             </h2>
             <p>
