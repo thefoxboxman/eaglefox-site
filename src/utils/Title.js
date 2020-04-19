@@ -22,7 +22,9 @@ const TitleWrapper = styled.div`
   .message {
     ${styles.textSlanted};
     letter-spacing: 0.3rem;
-    color: ${styles.colors.mainYellow};
+    color: ${styles.colors.mainYellow2};
+    font-size: 1.5rem;
+    font-weight: bold;
   }
   .title {
     letter-spacing: 0.3rem;
@@ -32,7 +34,7 @@ const TitleWrapper = styled.div`
   .underline {
     width: 5rem;
     height: 0.2rem;
-    background: ${styles.colors.mainYellow};
+    background: ${styles.colors.mainYellow2};
     margin: 0.5rem auto;
   }
 `
